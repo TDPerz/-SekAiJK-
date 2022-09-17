@@ -1,0 +1,160 @@
+.index-role .header {
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding: 2px 15px;
+  background-color: #fff;
+}
+.index-role .header .header-title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.index-role .header .header-title .menu-collapse {
+  display: none;
+}
+.index-role .header .header-title h2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  line-height: 70px;
+  height: 40px;
+}
+.index-role .header Button {
+  margin-left: auto;
+}
+.index-role .body {
+  max-height: 75vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.index-role .body .rol-bg {
+  background-color: #fff;
+  padding: 5px 5px;
+}
+.index-role .body .rol-bg .search {
+  margin-top: 5px;
+  margin-right: 2px;
+  margin-left: auto;
+  margin-bottom: 10px;
+  float: right;
+  width: 500px;
+}
+.index-role .body .ant-table {
+  border-top: #C8BDB9 solid 1px;
+  max-height: 100%;
+}
+.index-role .body .ant-table .ant-table-container {
+  max-height: 100%;
+}
+.index-role .body .ant-table .ant-table-container .ant-table-body {
+  height: 70vh !important;
+}
+.index-role .ant-pagination {
+  padding: 2px 15px;
+}
+
+@media screen and (max-width: 1200px) {
+  .index-role .header {
+    padding: 2px 15px;
+  }
+  .index-role .header .header-title .menu-collapse {
+    display: block;
+  }
+  .index-role .body {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .index-role .body .rol-bg {
+    padding: 1px 1px;
+  }
+  .index-role .body .rol-bg .search {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    float: right;
+    width: 500px;
+  }
+  .index-role .body .ant-table {
+    border-top: #C8BDB9 solid 1px;
+    max-height: 100%;
+  }
+  .index-role .body .ant-table .ant-table-container {
+    max-height: 100%;
+  }
+  .index-role .body .ant-table .ant-table-container .ant-table-body {
+    height: 70vh !important;
+  }
+}
+@media screen and (max-width: 920px) {
+  .index-role .header {
+    padding: 2px 10px;
+  }
+  .index-role .header .header-title .menu-collapse {
+    display: block;
+  }
+  .index-role .body {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .index-role .body .rol-bg {
+    padding: 1px 1px;
+  }
+  .index-role .body .rol-bg .search {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    float: right;
+    width: 500px;
+  }
+  .index-role .body .ant-table {
+    border-top: #C8BDB9 solid 1px;
+    max-height: 100%;
+  }
+  .index-role .body .ant-table .ant-table-container {
+    max-height: 100%;
+  }
+  .index-role .body .ant-table .ant-table-container .ant-table-body {
+    height: 70vh !important;
+  }
+}
+@media screen and (max-width: 720px) {
+  .index-role {
+    background-color: #fff;
+  }
+  .index-role .header {
+    padding: 2px 5px;
+  }
+  .index-role .header .header-title .menu-collapse {
+    display: block;
+  }
+  .index-role .body {
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .index-role .body .rol-bg {
+    padding: 1px 1px;
+  }
+  .index-role .body .rol-bg .search {
+    margin-top: 5px;
+    margin: 0px;
+    margin-bottom: 10px;
+    float: right;
+    width: 100%;
+  }
+  .index-role .body .ant-table {
+    border-top: #C8BDB9 solid 1px;
+    max-height: 100%;
+  }
+  .index-role .body .ant-table .ant-table-container {
+    max-height: 100%;
+  }
+  .index-role .body .ant-table .ant-table-container .ant-table-body {
+    height: 70vh !important;
+  }
+}/*# sourceMappingURL=Role.css.map */

@@ -1,0 +1,173 @@
+.login {
+  background-image: url("https://res.cloudinary.com/sekai-jk/image/upload/v1660182508/Sekaijk/Portada_nzoomw.jpg");
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  transition: 0.5s;
+  background-size: cover;
+  background-position: center;
+}
+.login .loginForm {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-55%, -70%);
+  justify-content: center;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 10px;
+  height: auto;
+  color: white;
+}
+.login .loginForm .logo-login {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 25px;
+  transition: 0.5s;
+}
+.login .loginForm .logo-login .cls-1 {
+  transition: 0.2s;
+}
+.login .loginForm .logo-login:hover .cls-1 {
+  color: #FE8084;
+}
+.login .loginForm .button-login {
+  width: 100%;
+}
+.login .loginForm .ant-checkbox-wrapper-in-form-item {
+  color: white;
+}
+.login .loginForm .ant-divider {
+  color: white;
+}
+.login .loginForm .divider {
+  display: flex;
+  align-items: center;
+  font-size: var(--text-sm);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  --text-divider-gap: 5px;
+}
+.login .loginForm .divider::before, .login .loginForm .divider::after {
+  content: "";
+  height: 1px;
+  background-color: silver;
+  flex-grow: 1;
+}
+.login .loginForm .divider::before {
+  margin-right: var(--text-divider-gap);
+}
+.login .loginForm .divider::after {
+  margin-left: var(--text-divider-gap);
+}
+.login .loginForm .ant-input-affix-wrapper {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  border-color: #EE2F8F;
+}
+.login .loginForm .ant-input-affix-wrapper input:-internal-autofill-selected {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.login .loginForm .ant-input-affix-wrapper .-internal-autofill-selected {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.login .loginForm .ant-input-affix-wrapper .anticon-eye-invisible {
+  color: white;
+}
+.login .loginForm .ant-input-affix-wrapper .anticon-eye {
+  color: white;
+}
+.login .loginForm .ant-input-affix-wrapper .ant-input::autofill {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.login .loginForm .ant-input-affix-wrapper .ant-input:-internal-autofill-selected {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.login .loginForm .ant-input-affix-wrapper .ant-input {
+  background-color: transparent !important;
+  color: currentColor;
+}
+.login .loginForm .ant-input-affix-wrapper .ant-input:-webkit-autofill {
+  background-color: transparent !important;
+  color: currentColor;
+}
+.login .loginForm .ant-input-affix-wrapper .ant-input:autofill {
+  background-color: transparent !important;
+  color: currentColor;
+}
+.login .loginForm .ant-input-affix-wrapper:hover {
+  border-color: #9A2EFE;
+}
+.login .loginForm .ant-input-affix-wrapper:focus-within {
+  border-color: #9A2EFE;
+}
+.login .loginForm .ant-input-affix-wrapper-internal-autofill-selected {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.login .loginForm .ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper, .login .loginForm .ant-input-affix-wrapper-status-success, .login .loginForm .ant-input-affix-wrapper:-internal-autofill-selected {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.login .loginForm .ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper .ant-input, .login .loginForm .ant-input-affix-wrapper-status-success .ant-input, .login .loginForm .ant-input-affix-wrapper:-internal-autofill-selected .ant-input {
+  background-color: transparent !important;
+  color: currentColor;
+}
+.login .loginForm .ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper .ant-input:-webkit-autofill, .login .loginForm .ant-input-affix-wrapper-status-success .ant-input:-webkit-autofill, .login .loginForm .ant-input-affix-wrapper:-internal-autofill-selected .ant-input:-webkit-autofill {
+  background-color: transparent;
+  color: currentColor;
+}
+.login .loginForm .ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper .ant-input:autofill, .login .loginForm .ant-input-affix-wrapper-status-success .ant-input:autofill, .login .loginForm .ant-input-affix-wrapper:-internal-autofill-selected .ant-input:autofill {
+  background-color: transparent;
+  color: currentColor;
+}
+
+@media screen and (max-width: 1200px) {
+  .login .loginForm {
+    transform: translate(-50%, -70%);
+    width: 300px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .login .loginForm {
+    transform: translate(-50%, -70%);
+    width: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .login {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://res.cloudinary.com/sekai-jk/image/upload/v1660182508/Sekaijk/Portada_nzoomw.jpg");
+    width: 100vw;
+    height: 100vh;
+  }
+  .login .loginForm {
+    position: relative;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -70%);
+    justify-content: center;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 0px;
+    padding: 10px;
+    height: auto;
+    color: white;
+  }
+  .login .loginForm .logo-login {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 25px;
+    transition: 0.5s;
+  }
+  .login .loginForm .logo-login .cls-1 {
+    transition: 0.2s;
+  }
+  .login .loginForm .logo-login:hover .cls-1 {
+    color: #FE8084;
+  }
+}/*# sourceMappingURL=auth.css.map */

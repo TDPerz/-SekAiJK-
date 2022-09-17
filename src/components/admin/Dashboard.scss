@@ -1,0 +1,133 @@
+.dash-menu-bg .ant-layout-sider {
+    background-image: linear-gradient(rgba($color: #1F1F1F, $alpha: .7), rgba($color: #1F1F1F, $alpha: .7)), url('https://res.cloudinary.com/sekai-jk/image/upload/v1660182508/Sekaijk/Portada_nzoomw.jpg');
+}
+
+.dash-menu-bg .ant-layout-sider .ant-menu {
+    background-color: transparent;
+    border: none;
+}
+
+.dash-menu-bg {
+    .ant-layout-sider {
+        position: relative;
+        overflow: hidden;
+
+        .dash-logo {
+            padding: 20px;
+            width: 100%;
+            color: white;
+            transition: .3s;
+
+            &:hover {
+                color: #FE8084;
+            }
+        }
+
+        .ant-menu {
+            .ant-menu-item {
+                .ant-menu-item-selected {
+                    background-color: rgba($color: #333333, $alpha: .5);
+                }
+            }
+
+            .ant-menu-sub {
+                background-color: transparent;
+            }
+        }
+
+        .menu-user {
+            position: absolute;
+            width: 100%;
+            bottom: 0%;
+        }
+    }
+
+    .ant-layout-content {
+        overflow: auto;
+    }
+}
+
+.dash-menu-bg .ant-layout-sider .ant-menu {
+    background-color: transparent;
+    border-color: transparent;
+
+    .ant-menu-item {
+        .ant-menu-item-selected {
+            background-color: #1890FF;
+        }
+
+        &:hover {
+            background-color: #1890FF;
+        }
+
+        .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+            background-color: #1890FF;
+        }
+
+        &:focus {
+            background-color: #1890FF;
+        }
+
+        .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+            background-color: #1890FF;
+        }
+    }
+}
+
+.ant-drawer-content-wrapper {
+
+    .ant-drawer-content {
+        background-image: linear-gradient(rgba($color: #1F1F1F, $alpha: .5), rgba($color: #1F1F1F, $alpha: .5)), url('https://res.cloudinary.com/sekai-jk/image/upload/v1660182508/Sekaijk/Portada_nzoomw.jpg') !important;
+        padding: 0;
+
+        .ant-drawer-header {
+            color: white;
+
+            .ant-drawer-header-title {
+                color: white;
+
+                .ant-drawer-close {
+                    color: white;
+                }
+            }
+        }
+
+        .ant-drawer-body {
+            padding: 0;
+            position: relative;
+
+            .menu-user {
+                padding: 5px 5px;
+                position: absolute;
+                width: 100%;
+                bottom: 0%;
+            }
+
+            .ant-menu {
+                background-color: transparent;
+
+                .ant-menu-item {
+                    .ant-menu-item-selected {
+                        background-color: #1890FF;
+                    }
+
+                    &:hover {
+                        background-color: #1890FF;
+                    }
+
+                    .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+                        background-color: #1890FF;
+                    }
+
+                    &:focus {
+                        background-color: #1890FF;
+                    }
+
+                    .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+                        background-color: #1890FF;
+                    }
+                }
+            }
+        }
+    }
+}

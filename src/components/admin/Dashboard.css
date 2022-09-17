@@ -1,0 +1,98 @@
+.dash-menu-bg .ant-layout-sider {
+  background-image: linear-gradient(rgba(31, 31, 31, 0.7), rgba(31, 31, 31, 0.7)), url("https://res.cloudinary.com/sekai-jk/image/upload/v1660182508/Sekaijk/Portada_nzoomw.jpg");
+}
+
+.dash-menu-bg .ant-layout-sider .ant-menu {
+  background-color: transparent;
+  border: none;
+}
+
+.dash-menu-bg .ant-layout-sider {
+  position: relative;
+  overflow: hidden;
+}
+.dash-menu-bg .ant-layout-sider .dash-logo {
+  padding: 20px;
+  width: 100%;
+  color: white;
+  transition: 0.3s;
+}
+.dash-menu-bg .ant-layout-sider .dash-logo:hover {
+  color: #FE8084;
+}
+.dash-menu-bg .ant-layout-sider .ant-menu .ant-menu-item .ant-menu-item-selected {
+  background-color: rgba(51, 51, 51, 0.5);
+}
+.dash-menu-bg .ant-layout-sider .ant-menu .ant-menu-sub {
+  background-color: transparent;
+}
+.dash-menu-bg .ant-layout-sider .menu-user {
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+}
+.dash-menu-bg .ant-layout-content {
+  overflow: auto;
+}
+
+.dash-menu-bg .ant-layout-sider .ant-menu {
+  background-color: transparent;
+  border-color: transparent;
+}
+.dash-menu-bg .ant-layout-sider .ant-menu .ant-menu-item .ant-menu-item-selected {
+  background-color: #1890FF;
+}
+.dash-menu-bg .ant-layout-sider .ant-menu .ant-menu-item:hover {
+  background-color: #1890FF;
+}
+.dash-menu-bg .ant-layout-sider .ant-menu .ant-menu-item .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #1890FF;
+}
+.dash-menu-bg .ant-layout-sider .ant-menu .ant-menu-item:focus {
+  background-color: #1890FF;
+}
+.dash-menu-bg .ant-layout-sider .ant-menu .ant-menu-item .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #1890FF;
+}
+
+.ant-drawer-content-wrapper .ant-drawer-content {
+  background-image: linear-gradient(rgba(31, 31, 31, 0.5), rgba(31, 31, 31, 0.5)), url("https://res.cloudinary.com/sekai-jk/image/upload/v1660182508/Sekaijk/Portada_nzoomw.jpg") !important;
+  padding: 0;
+}
+.ant-drawer-content-wrapper .ant-drawer-content .ant-drawer-header {
+  color: white;
+}
+.ant-drawer-content-wrapper .ant-drawer-content .ant-drawer-header .ant-drawer-header-title {
+  color: white;
+}
+.ant-drawer-content-wrapper .ant-drawer-content .ant-drawer-header .ant-drawer-header-title .ant-drawer-close {
+  color: white;
+}
+.ant-drawer-content-wrapper .ant-drawer-content .ant-drawer-body {
+  padding: 0;
+  position: relative;
+}
+.ant-drawer-content-wrapper .ant-drawer-content .ant-drawer-body .menu-user {
+  padding: 5px 5px;
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+}
+.ant-drawer-content-wrapper .ant-drawer-content .ant-drawer-body .ant-menu {
+  background-color: transparent;
+}
+.ant-drawer-content-wrapper .ant-drawer-content .ant-drawer-body .ant-menu .ant-menu-item .ant-menu-item-selected {
+  background-color: #1890FF;
+}
+.ant-drawer-content-wrapper .ant-drawer-content .ant-drawer-body .ant-menu .ant-menu-item:hover {
+  background-color: #1890FF;
+}
+.ant-drawer-content-wrapper .ant-drawer-content .ant-drawer-body .ant-menu .ant-menu-item .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #1890FF;
+}
+.ant-drawer-content-wrapper .ant-drawer-content .ant-drawer-body .ant-menu .ant-menu-item:focus {
+  background-color: #1890FF;
+}
+.ant-drawer-content-wrapper .ant-drawer-content .ant-drawer-body .ant-menu .ant-menu-item .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #1890FF;
+}/*# sourceMappingURL=Dashboard.css.map */

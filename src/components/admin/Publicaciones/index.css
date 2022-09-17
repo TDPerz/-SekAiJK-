@@ -1,0 +1,43 @@
+.index-post {
+  overflow: auto;
+}
+.index-post .header {
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding: 2px 15px;
+  background-color: #fff;
+}
+.index-post .header .header-title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.index-post .header .header-title .menu-collapse {
+  display: none;
+}
+.index-post .header .header-title h2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  line-height: 70px;
+  height: 40px;
+}
+.index-post .header Button {
+  margin-left: auto;
+}
+.index-post .list-post {
+  padding: 10px 25px;
+  overflow: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .index-post .header {
+    padding: 2px 10px;
+  }
+  .index-post .header .header-title .menu-collapse {
+    display: block;
+  }
+  .index-post .list-post {
+    padding: 10px 5px;
+  }
+}/*# sourceMappingURL=index.css.map */

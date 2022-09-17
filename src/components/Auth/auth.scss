@@ -1,0 +1,207 @@
+.login {
+    background-image: url('https://res.cloudinary.com/sekai-jk/image/upload/v1660182508/Sekaijk/Portada_nzoomw.jpg');
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    transition: .5s;
+    background-size: cover;
+    background-position: center;
+
+    .loginForm {
+        // margin-right: auto;
+        // margin-left: auto;
+        // margin-top: auto;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-55%, -70%);
+        justify-content: center;
+        width: 300px;
+        background-color: rgba($color: #000000, $alpha: .7);
+        border-radius: 10px;
+        padding: 10px;
+        height: auto;
+        color: white;
+
+        .logo-login {
+            width: 150px;
+            height: 150px;
+            padding: 10px;
+            margin: auto;
+            margin-bottom: 25px;
+            transition: .5s;
+
+            .cls-1 {
+                transition: .2s;
+            }
+
+            &:hover .cls-1 {
+                color: #FE8084;
+            }
+        }
+
+        .button-login {
+            width: 100%;
+        }
+
+        .ant-checkbox-wrapper-in-form-item {
+            color: white;
+        }
+
+        .ant-divider {
+            color: white;
+        }
+
+        .divider {
+            display: flex;
+            align-items: center;
+            font-size: var(--text-sm);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            --text-divider-gap: 5px;
+
+            &::before,
+            &::after {
+                content: '';
+                height: 1px;
+                background-color: silver;
+                flex-grow: 1;
+            }
+
+            &::before {
+                margin-right: var(--text-divider-gap);
+            }
+
+            &::after {
+                margin-left: var(--text-divider-gap);
+            }
+        }
+
+        .ant-input-affix-wrapper {
+            color: white;
+            background-color: rgba($color: #000000, $alpha: .5) !important;
+            border-color: #EE2F8F;
+
+            input:-internal-autofill-selected {
+                background-color: rgba($color: #000000, $alpha: .5) !important;
+            }
+
+            .-internal-autofill-selected {
+                background-color: rgba($color: #000000, $alpha: .5) !important;
+            }
+
+            .anticon-eye-invisible {
+                color: white;
+            }
+
+            .anticon-eye {
+                color: white;
+            }
+
+            .ant-input::autofill {
+                background-color: rgba($color: #000000, $alpha: .5) !important;
+            }
+
+            .ant-input:-internal-autofill-selected {
+                background-color: rgba($color: #000000, $alpha: .5) !important;
+            }
+
+            .ant-input {
+                background-color: transparent !important;
+                color: currentColor;
+
+                &:autofill {
+                    background-color: transparent !important;
+                    color: currentColor;
+                }
+            }
+
+            &:hover {
+                border-color: #9A2EFE;
+            }
+
+            &:focus-within {
+                border-color: #9A2EFE;
+            }
+        }
+
+        .ant-input-affix-wrapper-internal-autofill-selected {
+            background-color: rgba($color: #000000, $alpha: .5) !important;
+        }
+
+        .ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper, .ant-input-affix-wrapper-status-success, .ant-input-affix-wrapper:-internal-autofill-selected {
+            color: white;
+            background-color: rgba($color: #000000, $alpha: .5) !important;
+
+            .ant-input {
+                background-color: transparent !important;
+                color: currentColor;
+
+                &:autofill {
+                    background-color: transparent;
+                    color: currentColor;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .login {
+
+        .loginForm {
+            transform: translate(-50%, -70%);
+            width: 300px;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .login {
+
+        .loginForm {
+            transform: translate(-50%, -70%);
+            width: 300px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .login {
+        background-image: linear-gradient(#00000066, #00000066), url('https://res.cloudinary.com/sekai-jk/image/upload/v1660182508/Sekaijk/Portada_nzoomw.jpg');
+        width: 100vw;
+        height: 100vh;
+
+        .loginForm {
+            position: relative;
+            top: 50%;
+            left: 0%;
+            transform: translate(0%, -70%);
+            justify-content: center;
+            width: 100%;
+            background-color: transparent;
+            border-radius: 0px;
+            padding: 10px;
+            height: auto;
+            color: white;
+
+            .logo-login {
+                width: 150px;
+                height: 150px;
+                padding: 10px;
+                margin: auto;
+                margin-bottom: 25px;
+                transition: .5s;
+
+                .cls-1 {
+                    transition: .2s;
+                }
+
+                &:hover .cls-1 {
+                    color: #FE8084;
+                }
+            }
+        }
+    }
+}

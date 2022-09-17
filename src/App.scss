@@ -1,0 +1,52 @@
+// @media screen and (min-width: 1200px) {
+//     ::-webkit-scrollbar {
+//         width: 10px;
+//     }
+
+//     ::-webkit-scrollbar-track {
+//         box-shadow: none;
+//         border-radius: 10px;
+//     }
+
+//     ::-webkit-scrollbar-thumb {
+//         background: #201115;
+//         border-radius: 10px;
+//         transition: .3s;
+
+//         &:hover {
+//             background: #1C1F3B;
+//         }
+//     }
+// }
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
